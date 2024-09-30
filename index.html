@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculatrice MVC</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="calculator">
+    <div class="display" id="display">0</div>
+    <div class="grid-container">
+      <button class="button" id="ac">AC</button>
+      <button class="button operation" id="divide">/</button>
+      <button class="button operation" id="multiply">*</button>
+      <button class="button operation" id="subtract">-</button>
+
+      <button class="button" id="7">7</button>
+      <button class="button" id="8">8</button>
+      <button class="button" id="9">9</button>
+      <button class="button operation" id="add">+</button>
+
+      <button class="button" id="4">4</button>
+      <button class="button" id="5">5</button>
+      <button class="button" id="6">6</button>
+      <button class="button equal" id="equal">=</button>
+
+      <button class="button" id="1">1</button>
+      <button class="button" id="2">2</button>
+      <button class="button" id="3">3</button>
+      <button class="button" id="0">0</button>
+    </div>
+  </div>
+
+  <script type="module" src="model.js"></script>
+  <script type="module" src="view.js"></script>
+  <script type="module" src="ontroller.js"></script>
+  <script type="module" src="app.js"></script>
+
+</body>
+</html>
